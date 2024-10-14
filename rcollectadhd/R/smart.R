@@ -1,0 +1,50 @@
+#' A 2-stage SMART data of children with ADHD
+#'
+#' @description
+#' We provide a two-stage sequential multiple assignment randomized trial
+#' (SMART) data of 150 children with ADHD mimicking a real world study. At the
+#' first stage, children were randomized to treatment of low-intensity
+#' behavioral modification (BMOD) or low-intensity methamphetamine (MED) with
+#' equal probability. At second stage, children were randomized to treatment of
+#' low-intensity BMOD + low-intensity MED, or high-intensity with equal
+#' probability. The primary outcome of study was children's school performance
+#' score ranging from 1 to 5 assessed at the end of the study for all
+#' participants.
+#'
+#' @format A data frame with 11 columns
+#'
+#' \describe{
+#'   \item{\code{id}}{IDs of the 150 children}
+#'   \item{\code{o11}}{baseline covariate coded as 0/1: diagnosed with ODD
+#'   (oppositional defiant disorder) before the first-stage intervention}
+#'   \item{\code{o12}}{baseline covariate: ADHD score at the end of the
+#'   previous school year (ranging from 0 to 3, larger values for fewer ADHD
+#'   symptoms)}
+#'   \item{\code{o13}}{baseline covariate coded as 0/1: receiving medication
+#'   during the previous school year}
+#'   \item{\code{o14}}{baseline covariate coded as 0/1: race - white (coded 1)
+#'   versus nonwhite (coded 0)}
+#'   \item{\code{a1}}{first-stage intervention coded as -1/1: -1 for
+#'   low-intensity methamphetamine (MEDS), 1 for low-intensity behavioral
+#'   modification (BMOD)}
+#'   \item{\code{r}}{first-stage response indicator coded as 0/1}
+#'   \item{\code{o21}}{intermediate outcome: number of months until non-response
+#'   (maximum: 8 months, NA for responders)}
+#'   \item{\code{o22}}{intermediate outcome coded as 0/1: adherence to the
+#'   first-stage intervention, 1 for high adherence}
+#'   \item{\code{a2}}{second-stage intervention coded as -1/1: -1 for low-
+#'   intensity BMOD + MEDS, 1 for high-intensity BMOD}
+#'   \item{\code{y}}{primary outcome (continuous): school performance at the
+#'   end of the school year (ranging from 1 to 5, higher values reflect better
+#'   performance)}
+#'  }
+#'
+#' @references Pelham, W. E., & Fabiano, G. A. (2008). Evidence-Based
+#' Psychosocial Treatments for Attention-Deficit/Hyperactivity Disorder.
+#' Journal of Clinical Child & Adolescent Psychology, 37(1), 184–214.
+#' https://doi.org/10.1080/15374410701818681
+#' Last retrieved from CRAN: 14/10/24
+#'
+#' @source `{DTRlearn2}` package
+#'
+"smart"
