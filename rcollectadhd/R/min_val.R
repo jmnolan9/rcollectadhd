@@ -1,7 +1,7 @@
 #' Get the minimum value in each numeric column of a data frame
 #'
-#' `min_val()` is a function that returns the minimum value in each of the
-#' numeric columns of a data frame.
+#' `min_val()` is a function that returns a data frame holding the minimum value
+#' in each of the numeric columns in the specified data frame.
 #'
 #' @param data The data frame in question.
 #' @returns The minimum value in each of the numeric columns in the specified
@@ -21,5 +21,6 @@ min_val <- function(data) {
   numeric_df <- data[, check_numeric]
   # Find the min value in each of the numeric columns
   min_values <- sapply(numeric_df, function(column) min(column, na.rm = TRUE))
-  return(min_values)
+  # Return data frame with the min values
+  return(as.data.frame(min_values))
 }

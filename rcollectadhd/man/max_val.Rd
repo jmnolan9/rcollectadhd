@@ -14,8 +14,8 @@ The maximum value in each of the numeric columns in the specified
 data frame (provided there are numeric columns in the data frame).
 }
 \description{
-\code{max_val()} is a function that returns the maximum value in each of the
-numeric columns of a data frame.
+\code{max_val()}  is a function that returns a data frame holding the maximum
+value in each of the numeric columns in the specified data frame.
 }
 \examples{
 max_val(mtcars)
