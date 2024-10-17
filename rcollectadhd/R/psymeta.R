@@ -2,39 +2,42 @@
 #' inhibitory control
 #'
 #' @description
-#' Results from 62 studies, including 75 effect sizes (Hedge’s g) on the effect
+#' Results from 62 studies, including 75 effect sizes (Hedge's g) on the effect
 #' of transcranial direct current stimulation (tDCS) in inhibitory control
 #' (Schroeder et al. 2020).
 #'
 #' @format A data frame with 75 rows and 13 variables:
 #'
 #' \describe{
-#'   \item{\code{study_id}}{unique id for study}
-#'   \item{\code{es_id}}{unique id for effect size}
-#'   \item{\code{yi}}{ffect size (Hedge’s g)}
-#'   \item{\code{vi}}{sampling variance for effect size}
-#'   \item{\code{study_design}}{study design ("between-subjects" or "within")}
-#'   \item{\code{control}}{control condition ("active control", "no tDCS", or
-#'   "sham")}
-#'   \item{\code{blinding}}{blinding strategy ("no blinding", "not reported",
-#'   "success")}
-#'   \item{\code{task}}{task used in study: go/no-go task ("GNG) or stop-signal
-#'   task("SST")}
-#'   \item{\code{population}}{population of study ("ADHD", "healthy" or "other
-#'   patients"}
-#'   \item{\code{stimulation}}{tDCS polarity ("anodal" or "cathodal")}
-#'   \item{\code{intensity}}{tDCS intensity (1 mA, 1.5 mA, or 2 mA)}
-#'   \item{\code{target_electrode_placement}}{target electrode placement}
-#'   \item{\code{return_electrode_placement}}{return electrode placement}
-#'   \item{\code{timing}}{timing of stimulation ("online" or "offline")}
+#'   \item{\code{study_id}}{(factor) Unique id for study.}
+#'   \item{\code{es_id}}{(factor) Unique id for effect size.}
+#'   \item{\code{yi}}{(numeric) Effect size (Hedge's g).}
+#'   \item{\code{vi}}{(numeric) Sampling variance for effect size.}
+#'   \item{\code{control}}{(factor) Control condition ("active control", "no
+#'   tDCS", or "sham").}
+#'   \item{\code{study_design}}{(factor) Study design ("between-subjects" or
+#'   "within").}
+#'   \item{\code{blinding}}{(factor) Blinding strategy ("no blinding", "not
+#'   reported", "success").}
+#'   \item{\code{task}}{(factor) Task used in study: go/no-go task ("GNG) or
+#'   stop-signal task("SST").}
+#'   \item{\code{population}}{(factor) Population of study ("ADHD", "healthy" or
+#'   "other patients".}
+#'   \item{\code{stimulation}}{(factor) tDCS polarity ("anodal" or "cathodal").}
+#'   \item{\code{intensity}}{(factor) tDCS intensity (1 mA, 1.5 mA, or 2 mA).}
+#'   \item{\code{target_electrode_placement}}{(factor) Target electrode
+#'   placement.}
+#'   \item{\code{return_electrode_placement}}{(factor) Return electrode
+#'   placement.}
+#'   \item{\code{timing}}{(factor) Timing of stimulation ("online" or
+#'   "offline").}
 #'  }
 #'
 #' @references Schroeder, P. A., Schwippel, T., Wolz, I., & Svaldi, J. (2020).
 #' Meta-analysis of the effects of transcranial direct current stimulation on
 #' inhibitory control. Brain Stimulation, 13(5), 1159–1167
 #' https://doi.org/10.1016/j.brs.2020.05.006
-#' Last retrieved from CRAN: 14/10/24
 #'
 #' @source `{psymetadata}` package
-#'
+#' Last retrieved from CRAN: 2024-10-12
 "psymeta"

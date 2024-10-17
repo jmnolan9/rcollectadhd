@@ -5,36 +5,28 @@
 \alias{student}
 \title{Multifaceted Computer Science Students Data To Identify Depression Level}
 \format{
-a data frame with 10 columns
+a data frame with 10 columns:
 
 \describe{
-\item{\code{Age}}{Represents the age of the individuals in the dataset,
-providing insight into the age distribution of the study.}
-\item{\code{Gender}}{Indicates the gender of each individual, allowing for
-the exploration of gender-related patterns and trends within the dataset.}
-\item{\code{AcademicPerformance}}{Reflects the academic achievements of
-individuals.}
-\item{\code{TakingNoteInClass}}{Describes about individuals take notes
-during class, providing insights into study habits and engagement during
-lectures.}
-\item{\code{DepressionStatus}}{Indicates the presence or absence of
-depressive symptoms, contributing valuable information about the mental
-health of individuals in the dataset.}
-\item{\code{FaceChallengesToCompleteAcademicTask}}{Explores whether
-individuals encounter challenges in completing academic tasks.}
-\item{\code{LikePresentation}}{Reflects individuals' preferences for
-presentations, offering insights into their learning style and engagement
-with visual or oral communication. This aim also measure is they extrovert
-or introvert.}
-\item{\code{SleepPerDayHours}}{Represents the average hours of sleep
-individuals get per day, providing information on sleep patterns and
-potential correlations with academic performance.}
-\item{\code{NumberOfFriend}}{Quantifies the social aspect by indicating
-the number of friends each individual has, contributing to the
-understanding of social dynamics within the dataset.}
-\item{\code{LikeNewThings}}{Explores individuals' receptiveness to new
-experiences or concepts, offering insights into their adaptability and
-openness to innovation.}
+\item{\code{Age}}{(factor) Age of each individual.}
+\item{\code{Gender}}{(factor) Gender of individual.}
+\item{\code{AcademicPerformance}}{(factor) Academic performance of each
+individual.}
+\item{\code{TakingNoteInClass}}{(factor) Note taking habits of each
+individual.}
+\item{\code{DepressionStatus}}{(factor) Presence of depression symptoms
+reported by each individual.}
+\item{\code{FaceChallengesToCompleteAcademicTask}}{(factor) Experience of
+facing challenges in completing academic challenges reported each
+individual.}
+\item{\code{LikePresentation}}{(factor) Like for making presentations for
+each individual.}
+\item{\code{SleepPerDayHours}}{(numeric) Average hours of sleep obtained
+reported by each individual.}
+\item{\code{NumberOfFriend}}{(numeric) Number of friends each individual
+reported having.}
+\item{\code{LikeNewThings}}{(factor) Like for new things reported by each
+individual.}
 }
 }
 \source{
@@ -42,6 +34,7 @@ openness to innovation.}
 Hossen Abir on Kaggle:
 https://www.kaggle.com/datasets/mdismielhossenabir/psychosocial-dimensions-of
 -student-life
+Last retrieved from Kaggle: 2024-10-12
 }
 \usage{
 student

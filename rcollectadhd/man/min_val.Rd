@@ -14,10 +14,11 @@ The minimum value in each of the numeric columns in the specified
 data frame (provided there are numeric columns in the data frame).
 }
 \description{
-min_val() checks for any columns in a data frame that contain numeric values,
-then returns the lowest value in each of those numeric columns.
+\code{min_val()} is a function that returns the minimum value in each of the
+numeric columns of a data frame.
 }
 \examples{
 min_val(mtcars)
 min_val(ChickWeight)
+
 }

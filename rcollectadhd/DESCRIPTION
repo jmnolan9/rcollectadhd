@@ -1,16 +1,20 @@
 Package: rcollectadhd
-Title: rcollectadhd: Collection of Datasets Containg ADHD Related Data
-Version: 0.3
+Title: rcollectadhd: Collection of data sets containing ADHD related data
+Version: 0.4
 Authors@R: person(
     "John", "Nolan", email = "john.mccabe.nolan@outlook.com", role = c("aut", 
     "cre"))
-Description: This package is a project I took on to learn the package building
-    process, the package maintaining process, and learn more about what packages
-    are.
-    The package includes data sets which have been sourced from other packages
-    on CRAN or from publications on Kaggle. The package also includes some
-    simple functions for obtaining basic statistics about a data set.
-    The datasets and descriptions of the data sets may differ from is on CRAN.
+Description: This package includes data sets which have been sourced from other
+    packages on CRAN or from publications on other websites such as Kaggle. The 
+    package also includes some simple functions for analysing data sets. The aim
+    of this package is to bring together data sets from a variety of ADHD
+    research publications. This package would be useful for those interested in
+    finding out what research has been done on the topic of ADHD, or those
+    interested in comparing the results from different existing works. I started
+    this project because I wanted to put together a collection of the data sets
+    relevant to ADHD research, which I have a personal interest in. The datasets
+    and descriptions of the data sets may differ from what is on CRAN or other
+    source websites.
 Depends: 
     R (>= 4.0.0)
 License: GPL (>= 3) + file LICENSE
@@ -18,3 +22,6 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

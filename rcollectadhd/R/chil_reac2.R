@@ -14,11 +14,12 @@
 #' @format A data frame with 120 rows and 4 variables:
 #'
 #' \describe{
-#'   \item{Group}{whether the child has ADHD or not}
-#'   \item{Stimulus}{the stimulus to which the reaction time in this row
-#'   corresponds}
-#'   \item{Subject}{an ID that corresponds to the reaction time score.}
-#'   \item{Milliseconds}{reaction time (milliseconds) of ubject to stimuli}
+#'   \item{Group}{(factor) whether the child has ADHD or not.}
+#'   \item{Stimulus}{(factor) The stimulus to which the reaction time in this
+#'   row corresponds.}
+#'   \item{Subject}{(factor) ID that corresponds to the reaction time score.}
+#'   \item{Milliseconds}{(numeric) Reaction time (milliseconds) of subject to
+#'   stimuli.}
 #' }
 #'
 #' @references Jonkman, L. M., Kemner, C., Verbaten, M. N., Van Engeland, H.,
@@ -26,14 +27,15 @@
 #' Perceptual and response interference in children with attention-deficit
 #' hyperactivity disorder, and the effects of methylphenidate. Psychophysiology,
 #' 36(4), 419–429.
+#' https://doi.org/10.1111/1469-8986.3640419
 #'
 #' Data was got from:
 #' Keselman, H. J., Wilcox, R. R., & Lix, L. M. (2003b). A generally
 #' robust approach to hypothesis testing in independent and correlated groups
 #' designs. Psychophysiology, 40(4), 586–596.
 #' https://doi.org/10.1111/1469-8986.00060
-#' Last retrieved from CRAN: 14/10/24
 #'
 #' @source `{welchADF}` package
+#' Last retrieved from CRAN: 2024-10-12
 #'
 "chil_reac2"

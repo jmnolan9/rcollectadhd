@@ -2,25 +2,25 @@
 % Please edit documentation in R/compare2.R
 \name{compare2}
 \alias{compare2}
-\title{Print two columns in the console}
+\title{Print two columns of interest from the data frame in the console.}
 \usage{
 compare2(data, column1, column2)
 }
 \arguments{
-\item{data}{The data frame in question}
+\item{data}{The data frame in question.}
 
-\item{column1}{The first column you want to compare.}
+\item{column1}{The first column to compare.}
 
-\item{column2}{The second column you want to compare.}
+\item{column2}{The second column to compare.}
 }
 \value{
 The two selected columns printed in the console.
 }
 \description{
-The point of compare2() is to reproduce two columns of interest side by side
-in the console for a quick scan comparison row by row.
+\code{compare2()} is a function that prints two columns of interest from a data
+frame side by side, for a quick visual row-wise comparison.
 }
 \examples{
 compare2(mtcars, 'cyl', 'mpg')
-compare2(ChickWeight, 'Chick', 'Time')
+
 }

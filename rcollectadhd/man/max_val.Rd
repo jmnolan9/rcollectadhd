@@ -2,7 +2,7 @@
 % Please edit documentation in R/max_val.R
 \name{max_val}
 \alias{max_val}
-\title{Get the maximum value in each numeric column of a data frame}
+\title{Get the maximum value in each numeric column of a data frame.}
 \usage{
 max_val(data)
 }
@@ -14,10 +14,11 @@ The maximum value in each of the numeric columns in the specified
 data frame (provided there are numeric columns in the data frame).
 }
 \description{
-max_val() checks for any columns in a data frame that contain numeric values,
-then returns the lowest value in each of those numeric columns.
+\code{max_val()} is a function that returns the maximum value in each of the
+numeric columns of a data frame.
 }
 \examples{
 max_val(mtcars)
 max_val(ChickWeight)
+
 }

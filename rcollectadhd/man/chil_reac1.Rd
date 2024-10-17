@@ -3,21 +3,26 @@
 \docType{data}
 \name{chil_reac1}
 \alias{chil_reac1}
-\title{Children’s reaction times (milliseconds) to stimuli of different nature,
+\title{Children's reaction times (milliseconds) to stimuli of different nature,
 arranged with four response columns}
 \format{
 A data frame with 30 rows and 5 variables:
 
 \describe{
-\item{Group}{whether the child has ADHD or not.}
-\item{TargetAlone}{Reaction time (milliseconds) to a target alone.}
-\item{Congruent}{Reaction time (milliseconds) to a congruent stimulus.}
-\item{Neutral}{Reaction time (milliseconds) to a neutral stimulus.}
-\item{Incongruent}{Reaction time (milliseconds) to an incongruent stimulus.}
+\item{Group}{(factor) Whether the child has ADHD or not.}
+\item{TargetAlone}{(numeric) Reaction time (milliseconds) to a target
+alone.}
+\item{Congruent}{(numeric) Reaction time (milliseconds) to a congruent
+stimulus.}
+\item{Neutral}{(numeric) Reaction time (milliseconds) to a neutral
+stimulus.}
+\item{Incongruent}{(numeric) Reaction time (milliseconds) to an incongruent
+stimulus.}
 }
 }
 \source{
 \code{{welchADF}} package
+Last retrieved from CRAN: 2024-10-12
 }
 \usage{
 chil_reac1
@@ -37,12 +42,12 @@ Kenemans, J. L., Camfferman, G., Buitelaar, J. K., & Koelega, H. S. (1999).
 Perceptual and response interference in children with attention-deficit
 hyperactivity disorder, and the effects of methylphenidate. Psychophysiology,
 36(4), 419–429.
+https://doi.org/10.1111/1469-8986.3640419
 
 Data was got from:
-Keselman, H. J., Wilcox, R. R., & Lix, L. M. (2003b). A generally
+Keselman, H. J., Wilcox, R. R., & Lix, L. M. (2003). A generally
 robust approach to hypothesis testing in independent and correlated groups
 designs. Psychophysiology, 40(4), 586–596.
 https://doi.org/10.1111/1469-8986.00060
-Last retrieved from CRAN: 14/10/24
 }
 \keyword{datasets}

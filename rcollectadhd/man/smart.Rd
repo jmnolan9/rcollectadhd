@@ -5,36 +5,38 @@
 \alias{smart}
 \title{A 2-stage SMART data of children with ADHD}
 \format{
-A data frame with 11 columns
+A data frame with 11 columns:
 
 \describe{
-\item{\code{id}}{IDs of the 150 children}
-\item{\code{o11}}{baseline covariate coded as 0/1: diagnosed with ODD
-(oppositional defiant disorder) before the first-stage intervention}
-\item{\code{o12}}{baseline covariate: ADHD score at the end of the
-previous school year (ranging from 0 to 3, larger values for fewer ADHD
-symptoms)}
-\item{\code{o13}}{baseline covariate coded as 0/1: receiving medication
-during the previous school year}
-\item{\code{o14}}{baseline covariate coded as 0/1: race - white (coded 1)
-versus nonwhite (coded 0)}
-\item{\code{a1}}{first-stage intervention coded as -1/1: -1 for
+\item{\code{id}}{(factor) IDs of the 150 children.}
+\item{\code{o11}}{(factor) Baseline covariate encoded as 0/1: diagnosed
+with ODD (oppositional defiant disorder) before the first-stage
+intervention.}
+\item{\code{o12}}{(numeric) Baseline covariate: ADHD score at the end of
+the previous school year (ranging from 0 to 3, larger values for fewer ADHD
+symptoms).}
+\item{\code{o13}}{(factor) Baseline covariate encoded as 0/1: receiving
+medication during the previous school year.}
+\item{\code{o14}}{(factor) Baseline covariate encoded as 0/1: race - white
+(coded 1) versus nonwhite (coded 0).}
+\item{\code{a1}}{(factor) First-stage intervention encoded as -1/1: -1 for
 low-intensity methamphetamine (MEDS), 1 for low-intensity behavioral
-modification (BMOD)}
-\item{\code{r}}{first-stage response indicator coded as 0/1}
-\item{\code{o21}}{intermediate outcome: number of months until non-response
-(maximum: 8 months, NA for responders)}
-\item{\code{o22}}{intermediate outcome coded as 0/1: adherence to the
-first-stage intervention, 1 for high adherence}
-\item{\code{a2}}{second-stage intervention coded as -1/1: -1 for low-
-intensity BMOD + MEDS, 1 for high-intensity BMOD}
-\item{\code{y}}{primary outcome (continuous): school performance at the
-end of the school year (ranging from 1 to 5, higher values reflect better
-performance)}
+modification (BMOD).}
+\item{\code{r}}{(factor) First-stage response indicator encoded as 0/1}
+\item{\code{o21}}{(factor) Intermediate outcome: number of months until
+non-response (maximum: 8 months, NA for responders).}
+\item{\code{o22}}{(factor) Intermediate outcome encoded as 0/1: adherence
+to the first-stage intervention, 1 for high adherence.}
+\item{\code{a2}}{(factor) Second-stage intervention encoded as -1/1: -1 for
+low-intensity BMOD + MEDS, 1 for high-intensity BMOD.}
+\item{\code{y}}{(factor) Primary outcome (continuous): school performance
+at the end of the school year (ranging from 1 to 5, higher values reflect
+better performance)}
 }
 }
 \source{
 \code{{DTRlearn2}} package
+Last retrieved from CRAN: 2024-10-12
 }
 \usage{
 smart
@@ -51,10 +53,9 @@ score ranging from 1 to 5 assessed at the end of the study for all
 participants.
 }
 \references{
-Pelham, W. E., & Fabiano, G. A. (2008). Evidence-Based
-Psychosocial Treatments for Attention-Deficit/Hyperactivity Disorder.
-Journal of Clinical Child & Adolescent Psychology, 37(1), 184–214.
+Pelham, W. E., Fabiano, G. A. (2008). Evidence-Based Psychosocial
+Treatments for Attention-Deficit/Hyperactivity Disorder. Journal of Clinical
+Child & Adolescent Psychology, 37(1), 184–214.
 https://doi.org/10.1080/15374410701818681
-Last retrieved from CRAN: 14/10/24
 }
 \keyword{datasets}

@@ -4,10 +4,10 @@
 #' @description
 #' Data from a psychological study comparing attentional performances of
 #' Tourette’s syndrome (TS) patients, ADHD patients, and controls. These data
-#' were simulated using the sufficient statistics from Silverstein, Como,
-#' Palumbo, West, and Osborn (1995).
+#' were simulated using the sufficient statistics from Silverstein et al.
+#' (1995).
 #'
-#' @format A data frame with 51 rows and 2 columns.
+#' @format A data frame with 51 rows and 2 columns:
 #'
 #' \describe{
 #'   \item{\code{accuracy}}{(numeric) Participant's accuracy in the attentional
@@ -21,8 +21,8 @@
 #' adults with Tourette’s syndrome: Comparison with attention deficit-
 #' hyperactivity disorder. Neuropsychology, 9(2), 157–164.
 #' https://doi.org/10.1037/0894-4105.9.2.157
-#' Last retrieved from CRAN: 12/10/24
 #'
 #' @source `{BFpack}` package
+#' Last retrieved from CRAN: 2024-10-12
 #'
 "bf"
