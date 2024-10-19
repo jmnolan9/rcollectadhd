@@ -5,7 +5,7 @@
 \alias{chil_reac2}
 \title{Children's reaction times (milliseconds) to stimuli of different nature,
 arranged with one single response column and taking the multivariate
-response as an explicit within-subjects factor.}
+response as an explicit within-subjects factor}
 \format{
 A data frame with 120 rows and 4 variables:
 

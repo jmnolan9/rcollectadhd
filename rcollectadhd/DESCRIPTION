@@ -1,6 +1,6 @@
 Package: rcollectadhd
-Title: rcollectadhd: Collection of data sets containing ADHD related data
-Version: 0.4
+Title: Collection of data sets containing ADHD related data
+Version: 0.6
 Authors@R: person(
     "John", "Nolan", email = "john.mccabe.nolan@outlook.com", role = c("aut", 
     "cre"))

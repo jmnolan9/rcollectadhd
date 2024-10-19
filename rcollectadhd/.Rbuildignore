@@ -1,3 +1,5 @@
 ^rcollectadhd\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^tests
+^inst

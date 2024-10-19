@@ -50,7 +50,7 @@ equal probability. At second stage, children were randomized to treatment of
 low-intensity BMOD + low-intensity MED, or high-intensity with equal
 probability. The primary outcome of study was children's school performance
 score ranging from 1 to 5 assessed at the end of the study for all
-participants.
+participants
 }
 \references{
 Pelham, W. E., Fabiano, G. A. (2008). Evidence-Based Psychosocial

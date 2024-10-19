@@ -2,7 +2,7 @@
 % Please edit documentation in R/data_type.R
 \name{data_type}
 \alias{data_type}
-\title{List the data type in each column of the data frame.}
+\title{List the data type in each column of the data frame}
 \usage{
 data_type(data)
 }

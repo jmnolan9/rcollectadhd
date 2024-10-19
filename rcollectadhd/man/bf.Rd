@@ -12,7 +12,7 @@ A data frame with 51 rows and 2 columns:
 \item{\code{accuracy}}{(numeric) Participant's accuracy in the attentional
 task}
 \item{\code{group}}{(factor) Participant's group membership (TS patient,
-ADHD patient, or control}
+ADHD patient, or control).}
 }
 }
 \source{

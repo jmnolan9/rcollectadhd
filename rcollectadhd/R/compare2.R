@@ -1,4 +1,4 @@
-#' Print two columns of interest from the data frame in the console.
+#' Print two columns of interest from the data frame in the console
 #'
 #' `compare2()` is a function that prints two columns of interest from a data
 #' frame side by side, for a quick visual row-wise comparison.

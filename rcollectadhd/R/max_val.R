@@ -1,4 +1,4 @@
-#' Get the maximum value in each numeric column of a data frame.
+#' Get the maximum value in each numeric column of a data frame
 #'
 #' `max_val()`  is a function that returns a data frame holding the maximum
 #' value in each of the numeric columns in the specified data frame.

@@ -9,7 +9,7 @@
 #' low-intensity BMOD + low-intensity MED, or high-intensity with equal
 #' probability. The primary outcome of study was children's school performance
 #' score ranging from 1 to 5 assessed at the end of the study for all
-#' participants.
+#' participants
 #'
 #' @format A data frame with 11 columns:
 #'

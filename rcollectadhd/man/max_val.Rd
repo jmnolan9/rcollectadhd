@@ -2,7 +2,7 @@
 % Please edit documentation in R/max_val.R
 \name{max_val}
 \alias{max_val}
-\title{Get the maximum value in each numeric column of a data frame.}
+\title{Get the maximum value in each numeric column of a data frame}
 \usage{
 max_val(data)
 }

@@ -1,7 +1,7 @@
 #' @keywords internal
 "_PACKAGE"
 
-#' rcollectadhd: Collection of data sets containing ADHD related data
+#' Collection of data sets containing ADHD related data
 #'
 #' This package includes data sets which have been sourced from other packages
 #' on CRAN or from publications on other websites such as Kaggle. The package
@@ -16,4 +16,7 @@
 #' websites.
 #'
 #' @name rcollectadhd
+#'
+#' @seealso `{BFpack}`, `{welchADF}`, `{DoubleCone}`, `{psymetadata}`,
+#' `{DTRlearn2}`
 NULL

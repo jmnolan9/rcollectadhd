@@ -2,7 +2,7 @@
 % Please edit documentation in R/compare2.R
 \name{compare2}
 \alias{compare2}
-\title{Print two columns of interest from the data frame in the console.}
+\title{Print two columns of interest from the data frame in the console}
 \usage{
 compare2(data, column1, column2)
 }

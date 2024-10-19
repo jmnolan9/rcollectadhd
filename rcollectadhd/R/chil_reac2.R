@@ -1,6 +1,6 @@
 #' Children's reaction times (milliseconds) to stimuli of different nature,
 #' arranged with one single response column and taking the multivariate
-#' response as an explicit within-subjects factor.
+#' response as an explicit within-subjects factor
 #'
 #' @description
 #' The data (Keselman et al., 2003) represent the reaction times in milliseconds

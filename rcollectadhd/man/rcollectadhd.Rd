@@ -2,7 +2,7 @@
 % Please edit documentation in R/rcollectadhd-package.R
 \name{rcollectadhd}
 \alias{rcollectadhd}
-\title{rcollectadhd: Collection of data sets containing ADHD related data}
+\title{Collection of data sets containing ADHD related data}
 \description{
 This package includes data sets which have been sourced from other packages
 on CRAN or from publications on other websites such as Kaggle. The package
@@ -15,4 +15,8 @@ because I wanted to put together a collection of the data sets relevant to
 ADHD research, which I have a personal interest in. The data sets and
 descriptions of the data sets may differ from what is on CRAN or other source
 websites.
+}
+\seealso{
+\code{{BFpack}}, \code{{welchADF}}, \code{{DoubleCone}}, \code{{psymetadata}},
+\code{{DTRlearn2}}
 }

@@ -13,7 +13,7 @@
 #'   \item{\code{accuracy}}{(numeric) Participant's accuracy in the attentional
 #'   task}
 #'   \item{\code{group}}{(factor) Participant's group membership (TS patient,
-#'   ADHD patient, or control}
+#'   ADHD patient, or control).}
 #'  }
 #'
 #' @references Silverstein, S. M., Como, P. G., Palumbo, D. R., West, L. L.,

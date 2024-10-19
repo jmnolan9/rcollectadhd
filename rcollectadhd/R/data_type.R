@@ -1,4 +1,4 @@
-#' List the data type in each column of the data frame.
+#' List the data type in each column of the data frame
 #'
 #' `data_type()` is a function that returns a list which contains the data type
 #' in each of the columns in a data frame. If a column contains more than one
