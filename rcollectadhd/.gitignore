@@ -1,4 +1,4 @@
 .Rproj.user
 .Rhistory
-inst
-tests
+/inst
+/tests
