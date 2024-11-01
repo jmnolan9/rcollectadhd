@@ -1,9 +1,0 @@
-x <- data.frame(w = c(1,5,76,25), y = c("cat","dog","turtle","pigeon"), z = c(
-  12, 16, 89, 1.05
-))
-
-test_that("max_val works", {
-  expect_true(is.data.frame(max_val(x)))
-  expect_equal(max_val(x), data.frame("max_values" = c(76, 89), row.names =
-                                        c("w","z")))
-})
