@@ -1,8 +1,6 @@
 ^rcollectadhd\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
-^tests
-^inst
 ^rcollectadhd.Rproj
 ^.gitignore
 ^R.history
