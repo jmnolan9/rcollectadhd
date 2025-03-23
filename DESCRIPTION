@@ -1,6 +1,6 @@
 Package: rcollectadhd
 Title: Collection of Data Sets Containing ADHD Related Data
-Version: 0.8
+Version: 0.8.1
 Authors@R: person( "John", "Nolan", email = "john.mccabe.nolan@outlook.com",
     role = c("aut", "cre"))
 Description: A collection of data sets relating to ADHD (Attention Deficit 
@@ -27,3 +27,5 @@ LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/jmnolan9/rcollectadhd
+BugReports: https://github.com/jmnolan9/rcollectadhd/issues

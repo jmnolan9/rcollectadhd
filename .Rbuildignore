@@ -3,3 +3,6 @@
 ^LICENSE\.md$
 ^tests
 ^inst
+^rcollectadhd.Rproj
+^.gitignore
+^R.history
